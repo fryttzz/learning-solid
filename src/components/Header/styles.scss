@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fc776e;
+    height: 100px;
+    width: 100vw;
+    h1 {
+        font-weight: 700;
+        color: #ffffff;
+    }
+}
+
+.TestButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fc776e;
+    width: 180px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        color: #fe6358;
+        background-color: #f4f3f3;
+    }
+}

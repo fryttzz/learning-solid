@@ -1,16 +1,13 @@
-import { Component, createSignal } from "solid-js";
+import { Component } from "solid-js";
 
-import styles from "./App.module.css";
+import Header from "./components/Header";
+
+import styles from "./App.module.scss";
 
 const App: Component = () => {
-  const [count, setCount] = createSignal(0);
   return (
     <div class={styles.App}>
-      <header>
-        <button class={styles.Button} onClick={() => setCount(count() + 1)}>
-          {count()}
-        </button>
-      </header>
+      <Header />
     </div>
   );
 };
