@@ -8,8 +8,8 @@ const Task: Component = () => {
   return (
     <div class={styles.Container}>
       <input class={styles.Title} name="Title" type="text" />
-      <span class={styles.Save}>save</span>
-      <span class={styles.Remove}>remove</span>
+      <button class={styles.Save}>save</button>
+      <button class={styles.Remove}>remove</button>
     </div>
   );
 };
