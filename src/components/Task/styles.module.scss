@@ -1,0 +1,49 @@
+.Container {
+    display: grid;
+    grid-template-areas: "title save remove";
+    grid-template-columns: 1fr 80px;
+    grid-template-rows: 1fr;
+    border-bottom: 1px solid #c4c4c4;
+    margin: 10px;
+    padding: 10px;
+    gap: 16px;
+    width: 700px;
+}
+
+.Title {
+    grid-area: title;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8dedd;
+    width: 100%;
+    font-size: 16px;
+    color: #fc776e;
+    border: 0;
+    border-radius: 5px;
+}
+
+.Save {
+    grid-area: save;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #26ff00;
+    color: #0f6300;
+    height: 38px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Remove {
+    grid-area: remove;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    color: #fff;
+    height: 38px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 16px;
+}
